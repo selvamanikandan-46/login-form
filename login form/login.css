@@ -1,0 +1,38 @@
+h1 {
+    color: blue;
+    text-align: center; /* justify-self doesn't work on text, use text-align */
+    font-size: 25px; /* corrected */
+}
+
+form {
+    background-color: brown;
+    width: 200px;
+    padding: 20px; /* 50px was too big for 200px form */
+    height: auto; 
+    border: 2px solid blue; /* corrected border */
+    margin: 0 auto; /* centers the form */
+    border-radius: 20px;
+}
+
+label {
+    display: block; /* makes label appear above input */
+    margin-bottom: 10px;
+}
+
+input {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: aqua;
+}
+
+button {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}
